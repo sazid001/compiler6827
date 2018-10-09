@@ -1,3 +1,8 @@
+/*
+This code split full text file every word,symbol and everything and give them certain tag as keyword,identifier or values
+*/
+
+
 package assignment;
 
 import java.io.File;
@@ -110,3 +115,19 @@ public class experiment {
 		
 	}   
 	}
+
+/*
+              Output
+	      
+keyword: int, float, if,
+Identifiers: a, b, c,
+Math Operators: =,
+Logical Operators: >,
+Values: 5, 10,
+Others: , ; ( )	      
+
+
+*/
+
+
+
